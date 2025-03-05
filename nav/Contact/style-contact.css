@@ -1,0 +1,51 @@
+body{
+    background-color: #7886C7;
+}
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    background-color: #2D336B;
+    height: 570px;
+    width: 450px;
+}
+.material-symbols-outlined{
+    padding-top: 17px;
+    float: left;
+    padding-left: 30px;
+}
+#pin{
+    padding-top: 29px;
+}
+.text{
+    font-size: 70px;
+    text-align: center; 
+    color: #7886C7;
+
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.h3{
+    padding-left: 80px;
+    color: #FFF2F2;
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.link{
+    text-decoration: none;
+    color: #FFF2F2;
+}
+.material-symbols-outlined{
+    color: #7886C7;
+}
+
