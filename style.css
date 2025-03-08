@@ -90,34 +90,7 @@
     font-weight: bolder;
 }
 
-
-
-
-
-/*Footer*/ 
-/*.container{
-    display: grid;
-    height: 20vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #7886C7;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-}
-.i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2D336B;
-    border-radius: 10%;  
-}
-.i > a >img{
-    height: 200px;
-}
-.button{
-    display: none;
-}*/ 
+/*Footer*/
 
 
 
@@ -149,12 +122,5 @@
         list-style: none;
     }
     /*Footer*/
-
-    /*.container{
-        display: flex;
-        flex-wrap: wrap;
-    }*/ 
-
-
 
 }
