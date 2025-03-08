@@ -2,13 +2,13 @@ body{
     background-color: #7886C7;
 }
 
+/*NAVIGATION*/
 .nav{
     display: flex;
     justify-content: space-between;
     background-color: #2D336B;
     padding: 20px;
     align-items: center;
-
 }
 .name{
     color: #FFF2F2;
@@ -21,12 +21,25 @@ body{
     gap: 20px;
     align-items: center;
 }
+.nav-item{
+    display: none;
+}
+.menu-png{
+    width: 2.8rem;
+}
+.dropdown-menu {
+    background-color: #7886C7 !important;
+    border: 3px solid #2D336B !important;
+}
+
 .i{
     color: #A9B5DF;
 }
 .github-logo{
     width: 2rem;
 }
+
+/*Text & Picture*/
 .first{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -55,7 +68,7 @@ body{
     align-items: center;
 }
 
-
+/*Footer*/ 
 .container{
     display: grid;
     height: 20vh;
@@ -79,6 +92,8 @@ body{
 .button{
     display: none;
 }
+
+/*Mobile*/ 
 @media (max-width: 700px){
     .first{
         display: flex;
@@ -91,7 +106,7 @@ body{
     .link{
         display: none;
     }
-    .button{
+    .nav-item{
         display: flex;
     }
 }
