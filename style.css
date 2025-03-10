@@ -6,7 +6,7 @@
 }
 
 /*NAVIGATION*/
-.nav{
+.nav-top{
     display: flex;
     justify-content: space-between;
     background-color: #2D336B;
@@ -23,6 +23,9 @@
     display: flex;
     gap: 20px;
     align-items: center;
+}
+a:hover {
+    color: blue;
 }
 .nav-item{
     display: none;
@@ -91,8 +94,12 @@
 }
 
 /*Footer*/
-
-
+.nav a:hover svg {
+    fill: blue;
+}
+.nav-bt > a{
+    color: #2D336B;
+}
 
 /*Mobile*/ 
 @media (max-width: 700px){
@@ -121,6 +128,4 @@
     .About-me-li{
         list-style: none;
     }
-    /*Footer*/
-
 }
