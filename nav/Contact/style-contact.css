@@ -15,6 +15,7 @@ body{
     background-color: #2D336B;
     height: 650px;
     width: 500px;
+    border-radius: 5%;
 }
 .material-symbols-outlined{
     padding-top: 17px;
