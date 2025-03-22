@@ -24,6 +24,9 @@
     gap: 20px;
     align-items: center;
 }
+a:link{
+    text-decoration: none;
+}
 a:hover {
     color: blue;
 }
