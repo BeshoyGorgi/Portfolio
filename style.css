@@ -137,6 +137,11 @@ a:hover {
     .nav-item{
         display: flex;
     }
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        margin-top: 60px;
+        right: 0px;
+    }
 
     /*Text & Picture*/
     .first{
