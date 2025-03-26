@@ -1,9 +1,21 @@
-.bg-lt{
-    background-color: #7886C7;
-}
-.bg-dk{
-    background-color: #707AB7;
-}
+/*Color*/
+.bg{
+    background: linear-gradient(300deg, #445bf2, #707AB7, #7886C7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 /*NAVIGATION*/
 .nav-top{
@@ -48,7 +60,7 @@ a:hover {
     width: 2rem;
 }
 
-/*Text & Picture*/
+/*Home*/
 .first{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -69,7 +81,7 @@ a:hover {
 }
 .me{
     border-radius: 10%;
-    border: 5px solid #A9B5DF;
+    border: 5px solid #2D336B;
 
     height: 20rem;
 
@@ -95,7 +107,6 @@ a:hover {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-style: solid;
   color: black;
 }
 #work-experience > *{

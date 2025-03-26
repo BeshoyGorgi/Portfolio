@@ -1,6 +1,21 @@
 body{
-    background-color: #7886C7;
+    background: linear-gradient(300deg, #00bfff, #707AB7, #7886C7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
 }
+      
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
 .i{
     display: flex;
     justify-content: center;
@@ -21,9 +36,7 @@ body{
     padding-top: 17px;
     float: left;
     padding-left: 30px;
-}
-#pin{
-    padding-top: 29px;
+    color: #7886C7;
 }
 .text{
     font-size: 70px;
@@ -45,8 +58,5 @@ body{
 .link{
     text-decoration: none;
     color: #FFF2F2;
-}
-.material-symbols-outlined{
-    color: #7886C7;
 }
 
